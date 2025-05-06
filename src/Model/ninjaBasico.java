@@ -21,7 +21,7 @@ public class ninjaBasico implements Ninja {
     }
 
     public void executarhabilidades() {
-        System.out.println(nome + " Está lançando kunais.");
+        System.out.println(nome + " Está lançando kunai.");
     }
 
 }

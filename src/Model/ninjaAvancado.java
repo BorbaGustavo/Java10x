@@ -1,11 +1,12 @@
 package Model;
 
+import Enums.tipoEspecialidade;
 import Interface.Ninja;
 
 public class ninjaAvancado extends ninjaBasico implements Ninja {
-   String especilidade;
+   tipoEspecialidade especilidade;
 
-    public ninjaAvancado(String nome, int idade, String classeNinja, String especilidade) {
+    public ninjaAvancado(String nome, int idade, String classeNinja, tipoEspecialidade especilidade) {
        super(nome, idade, classeNinja);
        this.especilidade = especilidade;}
 
